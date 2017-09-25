@@ -5,13 +5,27 @@ body {
   margin-right: 5em;
 }
 
+.result-option {
+  border: none;
+  margin: 0.3em 2em;
+  background-color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.filter-option {
+  border: none;
+  margin: 0.3em 2em;
+  background-color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
 .sub-result {
   width: 80%;
   padding: 20px;
   border: 1px solid #DDD;
   margin: 10px; 
   overflow-y: hidden;
-  // box-shadow: 3px 3px 3px #888888;
   float: right;
 }
 
@@ -27,18 +41,22 @@ body {
 }
 
 #back-top-btn {
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  left: 80px; /* Place the button 30px from the right */
+  position: fixed;
+  bottom: 20px; 
+  left: 80px; 
   z-index: 99; /* Make sure it does not overlap */
   border: none; 
   outline: none; 
   background-color: #CDCDCD; 
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 10px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
+  cursor: pointer; 
+  padding: 10px; 
+  border-radius: 10px; 
 }
 
 #back-top-btn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #555;
 }
+
+.underline {
+  padding: 0.2em;
+  border-bottom: 0.2em solid #734D71;
