@@ -41,10 +41,11 @@ button {
 }
 .logo {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .logo-nav {
   font-size: 2em;
+  line-height: 0.5em;
 }
 /* design left part - buttons */
 .left-item {
