@@ -14,8 +14,12 @@ button {
   padding: 1em;
 }
 /* design center part */
+.nav-buttons {
+  display: flex;
+  justify-content: space-around;
+}
 .center-item {
-  margin: 0.3em 2em;
+  margin-top: 1em;
   background-color: #88BBD6;
   border: none;
   font-size: 1em;
@@ -44,8 +48,8 @@ button {
   justify-content: center;
 }
 .logo-nav {
-  font-size: 2em;
-  line-height: 0.5em;
+  width: 6em;
+  height: 6em;
 }
 /* design left part - buttons */
 .left-item {
