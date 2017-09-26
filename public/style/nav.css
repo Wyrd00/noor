@@ -42,6 +42,8 @@ button {
 .search {
   width: 50em;
   height: 3em;
+  direction: rtl;
+  padding-right: 4em;
 }
 /* design right part - logo */
 .logo, .left-nav {
