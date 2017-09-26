@@ -4,6 +4,10 @@ body {
   font-family: 'PT Sans', sans-serif;
   padding-top: 170px;
 }
+.main-content {
+  margin-right: 6em;
+}
+
 .logo-img {
   width: 12em;
   display: block;

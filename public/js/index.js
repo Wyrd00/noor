@@ -10,6 +10,10 @@ var home = document.querySelector('#home');
 var logo = document.querySelector('#logo');
 var login = document.querySelector('#login');
 var search = document.querySelector('#search');
+var searchTools = document.querySelector('#search-tools');
+var searchVideos = document.querySelector('#search-videos');
+var searchArticles = document.querySelector('#search-articles');
+var searchAll = document.querySelector('#search-all');
 
 english.addEventListener('click', function () {
   window.location = 'index-eng.html';
@@ -57,4 +61,20 @@ login.addEventListener('click', function () {
 
 search.addEventListener('submit', function () {
   window.location = 'resultsAll.html'
+});
+
+searchAll.addEventListener('click', function () {
+  window.location = 'resultsAll.html'
+});
+
+searchTools.addEventListener('click', function () {
+  window.location = 'resultsEquipments.html'
+});
+
+searchVideos.addEventListener('click', function () {
+  window.location = 'resultsVideos.html'
+});
+
+searchArticles.addEventListener('click', function () {
+  window.location = 'resultsArticles.html'
 });
