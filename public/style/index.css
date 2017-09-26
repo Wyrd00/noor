@@ -52,13 +52,15 @@ body {
   font-size: 1.1em;
 }
 .title {
-  text-align: center;
+  text-align: right;
   direction: rtl;
+  font-size: 2em;
 }
 /*design for new page*/
 .new-item {
-  direction: rtl;
   width: 80%;
+  float: right;
+  direction: rtl;
   display: block;
   margin: 1em auto;
   line-height: 1.4em;
@@ -69,16 +71,18 @@ body {
 .new-image {
   width: 8em;
   height: 6em;
-  display: block;
-  margin: 0 auto;
+  margin-top: 1em;
 }
 .new-title, .new-description {
-  text-align: center;
+  text-align: right;
+  margin-top: 1em;
+}
+.new-title {
+  font-size: 1.4em;
 }
 .btn {
   width: 10em;
-  display: block;
-  margin: 1em auto;
+  margin-top: 2em;
   background-color: #446876;
   font-family: 'PT Sans';
   font-size: 1.2em;
@@ -87,8 +91,8 @@ body {
   letter-spacing: 0;
   color: #FFFAF0;
   border: 0.2em solid #FFFAF0;
+  border-radius: 0.4em;
 }
-
 a {
   text-decoration: none;
 }
