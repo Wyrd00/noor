@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+   <meta charset="utf-8">
     <title>Noor</title>
     <link rel="stylesheet" href="./style/nav.css">
-    <link rel="stylesheet" type="text/css" href="./style/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./style/search-results.css">
 </head>
 <body>
   <nav class="navbar">
@@ -35,31 +35,52 @@
   </nav>
   <section>
     <h2>SEARCH RESULTS FOR ... </h2>
+      <div class="result-option-btn">
+        <button class="result-option tools underline">TOOLS</button>
+        <button class="result-option videos">VIDEOS</button>
+        <button class="result-option articles">ARTICLES</button>
+        <button class="result-option all">ALL</button>
+    </div>
+      <div class="filter-option">
+        <button class="filter-option">FILTER</button>
+    </div>
   </section>
 
-  <section class=''>
-    <h3>Search Result #1</h3>
-    <div>
-      <img src="http://dmeshoppe.com/images/easystand/bantam/LilyMotions.gif">
-      <p>Consequat est velit aute excepteur cillum aliqua labore amet ullamco eiusmod mollit elit laborum cillum elit enim dolore labore voluptate officia consectetur dolore aliqua.</p>
+  <section class='sub-result'>
+    <h3 class="">Search Result #1</h3>
+   <div class="search-visual">
+      <img src="http://dmeshoppe.com/images/easystand/bantam/LilyMotions.gif" width="200px" height="200px">
+    </div>
+    <div class="search-text">
+      <p>Consequat est velit aute excepteur cillum aliqua labore amet ullamco eiusmod mollit elit laborum cillum elit enim dolore labore voluptate officia consectetur dolore aliqua. Consequat est velit aute excepteur cillum aliqua labore amet ullamco eiusmod mollit elit laborum cillum elit enim dolore labore voluptate officia consectetur dolore aliqua.</p>
+    </div>
+  </section>
+
+  <section class='sub-result'>
+    <h3>Search Result #2</h3>
+   <div class="search-visual">
+      <img src="http://dmeshoppe.com/images/easystand/bantam/LilyMotions.gif" width="200px" height="200px">
+    </div>
+    <div class="search-text">
+      <p>Consequat est velit aute excepteur cillum aliqua labore amet ullamco eiusmod mollit elit laborum cillum elit enim dolore labore voluptate officia consectetur dolore aliqua. Consequat est velit aute excepteur cillum aliqua labore amet ullamco eiusmod mollit elit laborum cillum elit enim dolore labore voluptate officia consectetur dolore aliqua.</p>
+    </div>
+  </section>
+
+  <section class='sub-result'>
+    <h3>Search Result #3</h3>
+    <div class="search-visual">
+      <img src="http://dmeshoppe.com/images/easystand/bantam/LilyMotions.gif" width="200px" height="200px">
+    </div>
+    <div class="search-text">
+      <p>Consequat est velit aute excepteur cillum aliqua labore amet ullamco eiusmod mollit elit laborum cillum elit enim dolore labore voluptate officia consectetur dolore aliqua. Consequat est velit aute excepteur cillum aliqua labore amet ullamco eiusmod mollit elit laborum cillum elit enim dolore labore voluptate officia consectetur dolore aliqua.</p>
     </div>
   </section>
 
   <section>
-    <h3>Search Result #2</h3>
-    <div>
-      <img src="http://dmeshoppe.com/images/easystand/bantam/LilyMotions.gif">
-      <p>Consequat est velit aute excepteur cillum aliqua labore amet ullamco eiusmod mollit elit laborum cillum elit enim dolore labore voluptate officia consectetur dolore aliqua.</p>
-    </div>
+    <button onclick="topFunction()" id="back-top-btn" title="Back to Top">Top</button>
   </section>
 
-  <section class=''>
-    <h3>Search Result #3</h3>
-    <div>
-      <img src="http://dmeshoppe.com/images/easystand/bantam/LilyMotions.gif">
-      <p>Consequat est velit aute excepteur cillum aliqua labore amet ullamco eiusmod mollit elit laborum cillum elit enim dolore labore voluptate officia consectetur dolore aliqua.</p>
-    </div>
-  </section>
+  <script type="text/javascript" src="./js/back-to-top.js"></script>
   <script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>
