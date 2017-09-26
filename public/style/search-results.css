@@ -28,6 +28,7 @@ body {
   font-size: 10px;
   cursor: pointer;
 }
+
 .sub-result {
   width: 80%;
   padding: 20px;
@@ -51,7 +52,8 @@ body {
   position: fixed;
   bottom: 20px;
   left: 80px;
-  z-index: 99; /* Make sure it does not overlap */
+  z-index: 99;
+  /* Make sure it does not overlap */
   border: none;
   outline: none;
   background-color: #CDCDCD;
@@ -68,3 +70,22 @@ body {
 .underline {
   padding: 0.2em;
   border-bottom: 0.2em solid #734D71;
+}
+
+.btn {
+  width: 10em;
+  display: block;
+  margin: 1em auto;
+  margin-top: 2em;
+  background-color: #446876;
+  font-family: 'PT Sans';
+  font-size: 1.2em;
+  line-height: 1.5em;
+  cursor: pointer;
+  letter-spacing: 0;
+  color: #FFFAF0;
+  border: 0.2em solid #FFFAF0;
+  border-radius: 0.4em;
+  float: right;
+  clear: both;
+}
