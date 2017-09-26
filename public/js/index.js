@@ -8,6 +8,7 @@ var articles = document.querySelector('#articles');
 var newContent = document.querySelector('#new');
 var home = document.querySelector('#home');
 var logo = document.querySelector('#logo');
+var login = document.querySelector('#login');
 
 english.addEventListener('click', function () {
   window.location = 'index-eng.html';
@@ -47,4 +48,8 @@ home.addEventListener('click', function () {
 
 logo.addEventListener('click', function () {
   window.location = 'index-arb.html'
+});
+
+login.addEventListener('click', function () {
+  window.location = 'login.html'
 });
