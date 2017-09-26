@@ -1,6 +1,3 @@
-var english = document.querySelector('#english');
-var arabic = document.querySelector('#arabic');
-var hebrew = document.querySelector('#hebrew');
 var faq = document.querySelector('#FAQ');
 var tools = document.querySelector('#tools');
 var videos = document.querySelector('#videos');
@@ -10,18 +7,10 @@ var home = document.querySelector('#home');
 var logo = document.querySelector('#logo');
 var login = document.querySelector('#login');
 var search = document.querySelector('#search');
-
-english.addEventListener('click', function () {
-  window.location = 'index-eng.html';
-});
-
-arabic.addEventListener('click', function () {
-  window.location = 'index-arb.html';
-});
-
-hebrew.addEventListener('click', function () {
-  window.location = 'index-heb.html';
-});
+var searchTools = document.querySelector('#search-tools');
+var searchVideos = document.querySelector('#search-videos');
+var searchArticles = document.querySelector('#search-articles');
+var searchAll = document.querySelector('#search-all');
 
 faq.addEventListener('click', function () {
   window.location = 'FAQ.html';
@@ -55,6 +44,24 @@ login.addEventListener('click', function () {
   window.location = 'login.html'
 });
 
-search.addEventListener('submit', function () {
+search.addEventListener('keydown', function (e) {
+  if (e.keyCode === 13) {
+    window.location = 'resultsAll.html'
+  }
+});
+
+searchAll.addEventListener('click', function () {
   window.location = 'resultsAll.html'
+});
+
+searchTools.addEventListener('click', function () {
+  window.location = 'resultsEquipments.html'
+});
+
+searchVideos.addEventListener('click', function () {
+  window.location = 'resultsVideos.html'
+});
+
+searchArticles.addEventListener('click', function () {
+  window.location = 'resultsArticles.html'
 });
