@@ -9,6 +9,7 @@ var newContent = document.querySelector('#new');
 var home = document.querySelector('#home');
 var logo = document.querySelector('#logo');
 var login = document.querySelector('#login');
+var search = document.querySelector('#search');
 
 english.addEventListener('click', function () {
   window.location = 'index-eng.html';
@@ -52,4 +53,8 @@ logo.addEventListener('click', function () {
 
 login.addEventListener('click', function () {
   window.location = 'login.html'
+});
+
+search.addEventListener('submit', function () {
+  window.location = 'resultsAll.html'
 });
