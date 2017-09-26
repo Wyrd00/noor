@@ -7,6 +7,7 @@ var videos = document.querySelector('#videos');
 var articles = document.querySelector('#articles');
 var newContent = document.querySelector('#new');
 var home = document.querySelector('#home');
+var logo = document.querySelector('#logo');
 
 english.addEventListener('click', function () {
   window.location = 'index-eng.html';
@@ -26,20 +27,24 @@ faq.addEventListener('click', function () {
 
 tools.addEventListener('click', function () {
   window.location = 'categoryEquipments.html'
-})
+});
 
 videos.addEventListener('click', function () {
   window.location = 'categoryVideos.html'
-})
+});
 
 articles.addEventListener('click', function () {
   window.location = 'categoryArticles.html'
-})
+});
 
 newContent.addEventListener('click', function () {
   window.location = 'new.html'
-})
+});
 
 home.addEventListener('click', function () {
   window.location = 'index-arb.html'
-})
+});
+
+logo.addEventListener('click', function () {
+  window.location = 'index-arb.html'
+});
