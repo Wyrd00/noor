@@ -72,10 +72,6 @@ body {
   display: block;
   margin: 0 auto;
 }
-.new-video {
-  display: block;
-  margin: 0 auto;
-}
 .new-title, .new-description {
   text-align: center;
 }
@@ -91,4 +87,8 @@ body {
   letter-spacing: 0;
   color: #FFFAF0;
   border: 0.2em solid #FFFAF0;
+}
+
+a {
+  text-decoration: none;
 }
