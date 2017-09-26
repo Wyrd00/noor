@@ -2,15 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Noor</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./style/nav.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Noor</title>
   </head>
 
   <body>
 
-    <section class="navbar">
+    <nav class="navbar">
 
       <div class="left-nav">
         <button class="left-item">
@@ -18,28 +18,26 @@
           <span id="hebrew"> עב</span>
           <span class="lang" id="arabic"> عر</span>
         </button>
-        <button class="left-item login"> دخول </button>
+        <button class="left-item login" id="login"> دخول </button>
       </div>
-
       <div class="center-nav">
         <div class="search-input">
-          <input type="text" class="search"><img class="search-icon" src="./../images/search.png"></input>
+          <input type="text" class="search" id="search"><img class="search-icon" src="./../images/search.png"></input>
         </div>
         <div class="nav-buttons">
-          <button class="center-item faq">اسئلة</button>
-          <button class="center-item tools">ادوات</button>
-          <button class="center-item videos">فيديو</button>
-          <button class="center-item articles">مقالات</button>
-          <button class="center-item new">!جديد</button>
-          <button class="center-item home underline">دار</button>
+          <button class="center-item faq" id="FAQ">اسئلة</button>
+          <button class="center-item tools" id="tools">ادوات</button>
+          <button class="center-item videos" id="videos">فيديو</button>
+          <button class="center-item articles" id="articles">مقالات</button>
+          <button class="center-item new" id="new">!جديد</button>
+          <button class="center-item home underline" id="home">دار</button>
         </div>
       </div>
-
       <div class="logo">
-        <img class="logo-nav" src="./../images/noor-blue.png" alt="noor logo">
+        <img class="logo-nav" src="./../images/noor-blue.png" alt="noor logo" id="logo">
       </div>
 
-    </section>
+    </nav>
 
     <section class="main">
 
@@ -50,6 +48,6 @@
 
     </section>
 
-  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
   </body>
 </html>

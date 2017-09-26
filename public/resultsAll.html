@@ -3,9 +3,36 @@
 <head>
    <meta charset="utf-8">
     <title>Noor</title>
+    <link rel="stylesheet" href="./style/nav.css">
     <link rel="stylesheet" type="text/css" href="./style/stylesheet.css">
 </head>
 <body>
+  <nav class="navbar">
+    <div class="left-nav">
+      <button class="left-item">
+        <span id="english"> En</span>
+        <span id="hebrew"> עב</span>
+        <span class="lang" id="arabic"> عر</span>
+      </button>
+      <button class="left-item login" id="login"> دخول </button>
+    </div>
+    <div class="center-nav">
+      <div class="search-input">
+        <input type="text" class="search" id="search"><img class="search-icon" src="./../images/search.png"></input>
+      </div>
+      <div class="nav-buttons">
+        <button class="center-item faq" id="FAQ">اسئلة</button>
+        <button class="center-item tools" id="tools">ادوات</button>
+        <button class="center-item videos" id="videos">فيديو</button>
+        <button class="center-item articles" id="articles">مقالات</button>
+        <button class="center-item new" id="new">!جديد</button>
+        <button class="center-item home underline" id="home">دار</button>
+      </div>
+    </div>
+    <div class="logo">
+      <img class="logo-nav" src="./../images/noor-blue.png" alt="noor logo" id="logo">
+    </div>
+  </nav>
   <section class="">
     <h2>SEARCH RESULTS FOR ... </h2>
       <div class="result-option-btn">
@@ -42,7 +69,7 @@
       <img src="http://dmeshoppe.com/images/easystand/bantam/LilyMotions.gif" width="200px" height="200px">
     </div>
     <div class="search_text">
-      <p>Consequat est velit aute excepteur cillum aliqua labore amet ullamco eiusmod mollit elit laborum cillum elit enim dolore labore voluptate officia consectetur dolore aliqua.</p>   
+      <p>Consequat est velit aute excepteur cillum aliqua labore amet ullamco eiusmod mollit elit laborum cillum elit enim dolore labore voluptate officia consectetur dolore aliqua.</p>
     </div>
   </section>
 
@@ -51,5 +78,6 @@
   </section>
 
   <script type="text/javascript" src="./js/back-to-top.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>

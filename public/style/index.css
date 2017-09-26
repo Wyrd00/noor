@@ -27,3 +27,63 @@ body {
 .mission-right, .subtitle-right {
   direction: rtl;
 }
+/*design for FAQ*/
+.question-item {
+  width: 80%;
+  margin: 1em;
+  margin-right: 2em;
+  line-height: 1.4em;
+  direction: rtl;
+  padding: 1em;
+  border: 1px solid #DDD;
+  overflow-y: hidden;
+  float: right;
+}
+.question {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.answer {
+  font-size: 1.1em;
+}
+.title {
+  text-align: center;
+  direction: rtl;
+}
+/*design for new page*/
+.new-item {
+  direction: rtl;
+  width: 80%;
+  display: block;
+  margin: 1em auto;
+  line-height: 1.4em;
+  padding: 1em;
+  border: 1px solid #DDD;
+  overflow-y: hidden;
+}
+.new-image {
+  width: 8em;
+  height: 6em;
+  display: block;
+  margin: 0 auto;
+}
+.new-video {
+  display: block;
+  margin: 0 auto;
+}
+.new-title, .new-description {
+  text-align: center;
+}
+.btn {
+  width: 10em;
+  display: block;
+  margin: 1em auto;
+  background-color: #446876;
+  font-family: 'PT Sans';
+  font-size: 1.2em;
+  line-height: 1.5em;
+  cursor: pointer;
+  letter-spacing: 0;
+  color: #FFFAF0;
+  border: 0.2em solid #FFFAF0;
+}
