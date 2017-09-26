@@ -48,13 +48,18 @@ body {
 }
 
 #back-top-btn {
+  background-image: url('../../images/up-arrow2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40px;
+  width: 40px;
   position: fixed;
   bottom: 20px;
   left: 80px;
   z-index: 99; /* Make sure it does not overlap */
   border: none;
   outline: none;
-  background-color: #CDCDCD;
   cursor: pointer;
   padding: 10px;
   border-radius: 10px;
