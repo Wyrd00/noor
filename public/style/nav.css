@@ -36,6 +36,7 @@ a {
   border: none;
   font-size: 1em;
   margin-top: 1em;
+  cursor: pointer;
 }
 .search-input {
   position: relative;
@@ -76,6 +77,7 @@ a {
 .logo {
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 .logo-nav {
   width: 6em;
@@ -89,6 +91,7 @@ a {
   color: #E9E9E9;
   padding: 0.5em;
   border-radius: 0.2em;
+  cursor: pointer;
 }
 .lang-container {
   display: flex;
