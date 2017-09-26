@@ -15,9 +15,9 @@ body {
 
 .filter-option {
   border: none;
-  margin: 0.3em 2em;
+  margin: 0.9em 1.3em;
   background-color: white;
-  font-size: 1em;
+  font-size: 10px;
   cursor: pointer;
 }
 .sub-result {
@@ -29,12 +29,12 @@ body {
   float: right;
 }
 
-.one {
+.search_image {
   float: right;
   margin-left: 5%;
 }
 
-.two {
+.search_text {
   // margin-top: 50px;
   margin-left: 10%;
   height: 200px;
