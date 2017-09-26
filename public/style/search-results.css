@@ -4,12 +4,17 @@ body {
   text-align: right;
 }
 
+.main-content {
+  margin-right: 6em;
+}
+
 .text {
   direction: rtl;
 }
 
 .result-option {
   border: none;
+  margin-right: 6em;
   margin: 0.3em 2em;
   background-color: white;
   font-size: 1em;

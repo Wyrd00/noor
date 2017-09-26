@@ -6,7 +6,7 @@
   <title>Noor</title>
   <link rel="stylesheet" href="./style/reset.css">
   <link rel="stylesheet" href="./style/nav.css">
-  <link rel="stylesheet" type="text/css" href="./style/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="./style/search-results.css">
 </head>
 
 <body>
@@ -39,13 +39,15 @@
       </div>
     </div>
   </nav>
+
+  <main class="main-content">
   <section>
-    <h2>نتائج البحث... </h2>
-    <div class="result-option-btn">
-      <button class="result-option tools">TOOLS</button>
-      <button class="result-option videos">VIDEOS</button>
-      <button class="result-option articles underline">ARTICLES</button>
-      <button class="result-option all">ALL</button>
+      <h2>نتائج البحث... </h2>
+      <div class="result-option-btn">
+        <button class="result-option tools" id="search-tools">TOOLS</button>
+        <button class="result-option videos" id="search-videos">VIDEOS</button>
+        <button class="result-option articles underline" id="search-articles">ARTICLES</button>
+        <button class="result-option all" id="search-all">ALL</button>
     </div>
     <div class="filter-option">
       <button class="filter-option">FILTER</button>
@@ -86,9 +88,11 @@
   <section>
     <button onclick="topFunction()" id="back-top-btn" title="Back to Top">Top</button>
   </section>
+  </main>
 
   <script type="text/javascript" src="./js/back-to-top.js"></script>
   <script type="text/javascript" src="./js/index.js"></script>
+
 </body>
 
 </html>
