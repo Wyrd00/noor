@@ -88,3 +88,7 @@ body {
   color: #FFFAF0;
   border: 0.2em solid #FFFAF0;
 }
+
+a {
+  text-decoration: none;
+}
