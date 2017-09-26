@@ -4,6 +4,10 @@ body {
   text-align: right;
 }
 
+.text {
+  direction: rtl;
+}
+
 .result-option {
   border: none;
   margin: 0.3em 2em;
@@ -23,7 +27,7 @@ body {
   width: 80%;
   padding: 20px;
   border: 1px solid #DDD;
-  margin: 10px; 
+  margin: 10px;
   overflow-y: hidden;
   float: right;
 }
@@ -40,14 +44,14 @@ body {
 
 #back-top-btn {
   position: fixed;
-  bottom: 20px; 
-  left: 80px; 
+  bottom: 20px;
+  left: 80px;
   z-index: 99; /* Make sure it does not overlap */
-  border: none; 
-  outline: none; 
-  background-color: #CDCDCD; 
-  cursor: pointer; 
-  padding: 10px; 
+  border: none;
+  outline: none;
+  background-color: #CDCDCD;
+  cursor: pointer;
+  padding: 10px;
   border-radius: 10px;
   opacity: 8;
 }
