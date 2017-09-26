@@ -7,6 +7,9 @@ body {
 button {
   font-family: 'PT Sans', sans-serif;
 }
+a {
+  text-decoration: none;
+}
 /* design container */
 .navbar {
   background-color: #88BBD6;
@@ -46,8 +49,13 @@ button {
   padding-right: 4em;
 }
 /* design right part - logo */
-.logo, .left-nav {
+.right-nav, .left-nav {
   width: 20em;
+}
+.left-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .logo {
   display: flex;
@@ -64,8 +72,12 @@ button {
   background-color: #446876;
   color: #E9E9E9;
   padding: 0.5em;
-  border: 0.08em solid #E9E9E9;
+  /*border: 0.08em solid #E9E9E9;*/
   border-radius: 0.2em;
+}
+.lang-container {
+  display: flex;
+  justify-content: space-evenly;
 }
 .lang {
   font-weight: bold;
@@ -78,4 +90,9 @@ button {
 }
 .login {
   width: 7em;
+  height:2em;
+}
+.right-nav {
+  display: flex;
+  justify-content: space-evenly;
 }
