@@ -4,6 +4,17 @@ body {
   background-color: #E9E9E9;
 }
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.logo-img {
+  height: 10%;
+  width: 10%;
+}
+
 .form-container {
   display: flex;
   flex-direction: column;
