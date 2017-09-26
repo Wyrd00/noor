@@ -2,7 +2,7 @@ body {
   font-family: 'PT Sans', sans-serif;
   color: #000000;
   text-align: right;
-  margin-right: 5em;
+  padding-right: 5em;
 }
 
 .result-option {
@@ -29,7 +29,7 @@ body {
   float: right;
 }
 
-.search_image {
+.search_visual {
   float: right;
   margin-left: 5%;
 }
@@ -50,7 +50,8 @@ body {
   background-color: #CDCDCD; 
   cursor: pointer; 
   padding: 10px; 
-  border-radius: 10px; 
+  border-radius: 10px;
+  opacity: 8;
 }
 
 #back-top-btn:hover {
