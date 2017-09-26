@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-   <meta charset="utf-8">
-    <title>Noor</title>
-      <link rel="stylesheet" href="./style/nav.css">
-    <link rel="stylesheet" type="text/css" href="./style/search-results.css">
+  <meta charset="utf-8">
+  <title>Noor</title>
+  <link rel="stylesheet" href="./style/reset.css">
+  <link rel="stylesheet" href="./style/nav.css">
+  <link rel="stylesheet" type="text/css" href="./style/search-results.css">
 </head>
+
 <body>
   <nav class="navbar">
+
     <div class="left-nav">
-      <button class="left-item">
-        <span id="english"> En</span>
-        <span id="hebrew"> עב</span>
-        <span class="lang" id="arabic"> عر</span>
-      </button>
-      <button class="left-item login" id="login"> دخول </button>
+      <div class="lang-container">
+        <a href="index-eng.html">English</a>
+        <a href="index-arb.html">عربية</a>
+        <a href="index-heb.html">עברית</a>
+      </div>
     </div>
     <div class="center-nav">
       <div class="search-input">
@@ -23,14 +26,17 @@
       <div class="nav-buttons">
         <button class="center-item faq" id="FAQ">اسئلة</button>
         <button class="center-item tools" id="tools">ادوات</button>
-        <button class="center-item videos underline" id="videos">فيديو</button>
+        <button class="center-item videos" id="videos">فيديو</button>
         <button class="center-item articles" id="articles">مقالات</button>
         <button class="center-item new" id="new">!جديد</button>
-        <button class="center-item home" id="home">دار</button>
+        <button class="center-item home underline" id="home">الرئيسية</button>
       </div>
     </div>
-    <div class="logo">
-      <img class="logo-nav" src="./../images/noor-blue.png" alt="noor logo" id="logo">
+    <div class="right-nav">
+      <button class="left-item login" id="login"> دخول </button>
+      <div class="logo">
+        <img class="logo-nav" src="./../images/noor-blue.png" alt="noor logo" id="logo">
+      </div>
     </div>
   </nav>
 
@@ -78,4 +84,5 @@
   </main>
   <script type="text/javascript" src="./js/index.js"></script>
 </body>
+
 </html>

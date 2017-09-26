@@ -12,6 +12,9 @@ button {
   margin-right: 6em;
 }
 
+a {
+  text-decoration: none;
+}
 /* design container */
 .navbar {
   background-color: #88BBD6;
@@ -44,13 +47,31 @@ button {
   right: 1.2em;
   z-index: 1;
 }
+.search-icon-english {
+  left:1.2em;
+  width: 1.5em;
+  position: absolute;
+  top: 0.6em;
+  z-index: 1;
+}
 .search {
   width: 50em;
   height: 3em;
+  direction: rtl;
+  padding-right: 4em;
+}
+.search.english {
+  direction: ltr;
+  padding-left: 4em;
 }
 /* design right part - logo */
-.logo, .left-nav {
+.right-nav, .left-nav {
   width: 20em;
+}
+.left-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .logo {
   display: flex;
@@ -67,8 +88,11 @@ button {
   background-color: #446876;
   color: #E9E9E9;
   padding: 0.5em;
-  border: 0.08em solid #E9E9E9;
   border-radius: 0.2em;
+}
+.lang-container {
+  display: flex;
+  justify-content: space-evenly;
 }
 .lang {
   font-weight: bold;
@@ -81,4 +105,9 @@ button {
 }
 .login {
   width: 7em;
+  height:2em;
+}
+.right-nav {
+  display: flex;
+  justify-content: space-evenly;
 }

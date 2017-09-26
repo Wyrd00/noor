@@ -1,54 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Noor</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="./style/nav.css">
-    <link rel="stylesheet" href="./style/index.css">
-  </head>
 
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Noor</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="./style/reset.css">
+  <link rel="stylesheet" href="./style/nav.css">
+  <link rel="stylesheet" href="./style/index.css">
+</head>
 
-    <section class="navbar">
+<body>
 
-      <div class="left-nav">
-        <button class="left-item">
-          <span id="english"> En</span>
-          <span class="lang" id="hebrew"> עב</span>
-          <span id="arabic"> عر</span>
-        </button>
-        <button class="left-item login" id="login"> התחבר/י </button>
-      </div>
+  <nav class="navbar">
 
-      <div class="center-nav">
-        <div class="search-input">
-          <input type="text" class="search" id="search"><img class="search-icon" src="./../images/search.png"></input>
-        </div>
-        <div class="nav-buttons">
-          <button class="center-item faq" id="FAQ">שאלות</button>
-          <button class="center-item tools" id="tools">אביזרים</button>
-          <button class="center-item videos" id="videos">סרטי וידאו</button>
-          <button class="center-item articles" id="articles">מאמרים</button>
-          <button class="center-item new" id="new">!חדש</button>
-          <button class="center-item home underline" id="home">בית</button>
+    <div class="left-nav">
+      <div class="lang-container">
+        <a href="index-eng.html">English</a>
+        <a href="index-arb.html">عربية</a>
+        <a href="index-heb.html">עברית</a>
       </div>
     </div>
-
+    <div class="center-nav">
+      <div class="search-input">
+        <input type="text" class="search" id="search"><img class="search-icon" src="./../images/search.png"></input>
+      </div>
+      <div class="nav-buttons">
+        <button class="center-item faq" id="FAQ">שאלות נפוצות</button>
+        <button class="center-item tools" id="tools">אביזרי עזר</button>
+        <button class="center-item videos" id="videos">וידאו</button>
+        <button class="center-item articles" id="articles">מאמרים</button>
+        <button class="center-item new" id="new">!חדש</button>
+        <button class="center-item home underline" id="home">בית</button>
+      </div>
+    </div>
+    <div class="right-nav">
+      <button class="left-item login" id="login">התחבר/י</button>
       <div class="logo">
         <img class="logo-nav" src="./../images/noor-blue.png" alt="noor logo" id="logo">
       </div>
+    </div>
+  </nav>
 
-    </section>
+  <section class="main">
 
-    <section class="main">
+    <img class="logo-img" src="./../images/noor-white.png" alt="noor logo">
+    <h2 class="subtitle-right">דואגים לך, <br> כדי שתוכל לדאוג לאחרים</h2>
+    <p class="mission-right">ידע הוא מפתח לחיים טובים יותר. אתר זה כולל מידע נצרך על מנת לגדל ילד עם מוגבלויות ועל מנת להבטיח חיים ואיכות חיים טובים יותר לאדם עם המוגבלות ולמטפל בו.</p>
 
-      <img class="logo-img" src="./../images/noor-white.png" alt="noor logo">
-      <h2 class="subtitle-right">דואגים לך, <br> כדי שתוכל לדאוג לאחרים</h2>
-      <p class="mission-right">ידע הוא מפתח לחיים טובים יותר. אתר זה כולל מידע נצרך על מנת לגדל ילד עם מוגבלויות ועל מנת להבטיח חיים ואיכות חיים טובים יותר לאדם עם המוגבלות ולמטפל בו.</p>
+  </section>
 
-    </section>
+  <script type="text/javascript" src="./js/index.js"></script>
+</body>
 
-    <script type="text/javascript" src="./js/index.js"></script>
-  </body>
 </html>
