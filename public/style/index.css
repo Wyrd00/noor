@@ -36,7 +36,7 @@ body {
 .question-item {
   width: 80%;
   margin: 1em;
-  margin-right: 2em;
+  margin-right: 6em;
   line-height: 1.4em;
   direction: rtl;
   padding: 1em;
@@ -55,6 +55,8 @@ body {
   text-align: right;
   direction: rtl;
   font-size: 2em;
+  margin-right: 3em;
+  padding-bottom: 1.2em;
 }
 /*design for new page*/
 .new-item {
@@ -79,6 +81,9 @@ body {
 }
 .new-title {
   font-size: 1.4em;
+}
+.main-title {
+  margin-right: 0em;
 }
 .btn {
   width: 10em;
