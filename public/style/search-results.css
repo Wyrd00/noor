@@ -29,6 +29,44 @@ body {
   cursor: pointer;
 }
 
+.content {
+  margin-right: 5em;
+  width: 85%;
+  float: right;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+.content-img {
+  width: 14em;
+  height: 15em;
+  display: inline;
+  float: right;
+  margin: 1em;
+}
+
+.content-video {
+  display: block;
+  margin: 0.5em; auto;
+}
+
+.title-result {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.title-sub-result {
+  font-size: 1.5em;
+  margin-bottom: 0.4em;
+}
+
+.title {
+  text-align: right;
+  direction: rtl;
+  font-size: 2em;
+  padding-bottom: 1.2em;
+}
+
 .sub-result {
   width: 80%;
   padding: 20px;
@@ -45,7 +83,6 @@ body {
 
 .search-text {
   margin-left: 10%;
-  height: 200px;
 }
 
 #back-top-btn {
