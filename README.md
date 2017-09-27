@@ -2,6 +2,8 @@
 
 Knowledge is always the key for a better life. Having an app with all the data needed to raise a child with disabilities will improve health and quality of life for both the one with a disability and the caregiver.
 
+[Check out the prototype](https://facn2.github.io/noor/)
+
 ---
 ### Problem Statement
 Due to lack of information many caregivers harm themselves taking care of people with disabilities.
